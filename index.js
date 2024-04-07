@@ -1,7 +1,7 @@
 const axios = require('axios');
 const keep_alive = require('./keep_alive.js')
 const reminderMessage ='# !ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk @everyone (اعدائي)';
-const intervalMilliseconds = 5000;
+const intervalMilliseconds = 1000;
 
 const tokens = [
     process.env.token
