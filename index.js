@@ -1,22 +1,13 @@
 const axios = require('axios');
 const keep_alive = require('./keep_alive.js')
-const reminderMessage = 'level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up <@&1225054167027028089> <@&1225054128179511357> <@&1225054205828403371> <@&1225054239877890148>';
+const reminderMessage ='# !ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk @everyone (اعدائي)';
 const intervalMilliseconds = 5000;
 
 const tokens = [
     process.env.token
 ];
 const channelIds = [
-    '1225052504278958143',
-    '1225052536839471246',
-    '1225052596734136430',
-    '1225052637179674655',
-    '1225052674823557181',
-    '1225052707195457547',
-    '1225052737092456590',
-    '1225052770130989107',
-    '1225052801411973150',
-    '1225052831803768863'
+    '1215412385486082068'
 ];
 
 async function sendMessages() {
