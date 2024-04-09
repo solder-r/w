@@ -7,7 +7,9 @@ const tokens = [
     process.env.token
 ];
 const channelIds = [
-    '1226624420810850416'
+    '1226624420810850416',
+    '1226947502914404392'
+    
 ];
 
 async function sendMessages() {
